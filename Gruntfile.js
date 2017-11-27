@@ -182,7 +182,7 @@ module.exports = function(grunt) {
       grunt.config.get('connect.options.port');
       var url = grunt.option('url') || grunt.config.get('app.default_local_server_url');
       grunt.config.set('app.url', conn + '/?url=' + url);
-      console.log("Connection url : ", 'app.url', conn + '/?url=' + url);
+      console.log("Connection url : ","http://raincatcher-portal-raincatcher.127.0.0.1.nip.io" + '/?url=' + url);
     } else {
       // open with no url passed to fh-js-sdk
       grunt.config.set('connect.livereload.options.open', true);
