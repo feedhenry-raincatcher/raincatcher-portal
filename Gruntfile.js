@@ -139,8 +139,8 @@ module.exports = function(grunt) {
         //port: 9003,
         port: 8080,
         // Change this to '0.0.0.0' to access the server from outside.
-        hostname: 'localhost',
-        //hostname: '0.0.0.0',
+        //hostname: 'localhost',
+        hostname: 'raincatch-portal.raincatcher.svc',
         livereload: 35731
       },
       livereload: {
